@@ -1,8 +1,3 @@
-'''
-Playing Flappy Bird Game using DQN_AI
-Author: Lei Mao
-Date: 4/20/2017 
-'''
 
 import cv2
 import sys

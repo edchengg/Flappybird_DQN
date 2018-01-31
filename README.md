@@ -13,7 +13,7 @@ Date: 1/29/2018
 
 The AI needs to be trained before the game. To train the AI with dueling Q, run the command:
 ```shell
-python FlappyBird_AI.py -m train -n dueling_Q
+python FlappyBird_AI.py -m train -n Dueling_Q
 ```
 
 The AI has already been trained and stored as AI_model.h5 file if you do not want to do the training.

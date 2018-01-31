@@ -1,12 +1,3 @@
-'''
-Deep Q-Learning AI Game Player
-Author: Lei Mao
-Date: 4/19/2017
-Introduction: 
-The DQN_AI used Deep Q-Learning to study optimal solutions to play a certain game, assuming that the game is a Markov Decision Process. For the training step, the game API exports the game state (game snapshot), reward of the game state, and the signal of game termination to the DQN_AI for learning. For the test step, the DQN_AI only takes the game state as input and output operations that the DQN_AI thinks optimal. 
-Features:
-The DQN_AI was written in python using Tensorflow and Keras API, which is extremely neat and simple to understand. The game for illustration here is 'FlappyBird'. There are exsiting 'FlappyBird' python APIs on the internet. Those APIs were adapted and slightly modified to meet the author's personal perferences.
-'''
 
 import tensorflow as tf
 import numpy as np
